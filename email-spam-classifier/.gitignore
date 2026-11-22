@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# NLTK downloaded data (re-downloaded automatically on first run)
+nltk_data/
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Large / generated artifacts (keep the repo lightweight -- regenerate with
+# `python src/train_model.py`; comment these out if you want to commit them)
+# models/*.pkl
+# models/*.joblib
+# outputs/*.png
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Docker
+*.pid
+
+# Logs
+logs/
+*.log

@@ -1,0 +1,66 @@
+{
+  "app_version": "1.1.0",
+  "best_model": "Linear SVM",
+  "metrics": {
+    "model": "Linear SVM",
+    "accuracy": 0.9864209505334627,
+    "precision": 0.9596774193548387,
+    "recall": 0.9296875,
+    "f1_score": 0.9444444444444444,
+    "false_positive_rate": 0.005537098560354375,
+    "true_negative": 898,
+    "false_positive": 5,
+    "false_negative": 9,
+    "true_positive": 119
+  },
+  "all_model_results": [
+    {
+      "model": "Multinomial Naive Bayes",
+      "accuracy": 0.9709020368574199,
+      "precision": 1.0,
+      "recall": 0.765625,
+      "f1_score": 0.8672566371681416,
+      "false_positive_rate": 0.0,
+      "true_negative": 903,
+      "false_positive": 0,
+      "false_negative": 30,
+      "true_positive": 98
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9612027158098934,
+      "precision": 0.9583333333333334,
+      "recall": 0.71875,
+      "f1_score": 0.8214285714285714,
+      "false_positive_rate": 0.004429678848283499,
+      "true_negative": 899,
+      "false_positive": 4,
+      "false_negative": 36,
+      "true_positive": 92
+    },
+    {
+      "model": "Linear SVM",
+      "accuracy": 0.9864209505334627,
+      "precision": 0.9596774193548387,
+      "recall": 0.9296875,
+      "f1_score": 0.9444444444444444,
+      "false_positive_rate": 0.005537098560354375,
+      "true_negative": 898,
+      "false_positive": 5,
+      "false_negative": 9,
+      "true_positive": 119
+    }
+  ],
+  "dataset_stats": {
+    "total_messages": 5158,
+    "spam_count": 642,
+    "ham_count": 4516,
+    "spam_percentage": 12.45,
+    "duplicates_removed": 414
+  },
+  "train_size": 4123,
+  "test_size": 1031,
+  "vocabulary_size": 5000,
+  "random_state": 42,
+  "trained_at_unix": 1795277845.6483226
+}

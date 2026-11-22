@@ -1,0 +1,19 @@
+# Streamlit configuration. No fixed background/text colours are set, so the app
+# follows the viewer's light/dark preference (change it via the app menu > Settings).
+
+[theme]
+primaryColor = "#11998e"
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+port = 8501
+maxUploadSize = 25
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
